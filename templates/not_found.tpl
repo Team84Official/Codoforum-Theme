@@ -13,7 +13,8 @@
         .codo_not_found {
 
             margin-top: 60px;
-            background: white;
+            background: #000;
+            color: #fff;
             box-shadow: 1px 1px 5px #ccc;
             padding: 20px;
         }

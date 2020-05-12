@@ -48,7 +48,7 @@
 
         .codo_already_registered {
 
-            color: #585858;
+            color: #fff;
             display: inline-block;
             margin-left: 4px;
         }
@@ -137,7 +137,7 @@
                                            {if $field.is_mandatory}required=""{/if}/>
 
                                 {else}
-                                    <div class="form-group">
+                                    <div style="color: #fff;" class="form-group">
                                         {if $field.title}
                                             <label for="{$field.title}" >{$field.title}</label>
                                         {/if}

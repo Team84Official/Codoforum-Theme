@@ -277,7 +277,7 @@
                     <div class="codo_sidebar_fixed">
 
                         {if $can_search}
-                        <div id="codo_sidebar_fixed_search" class="codo_sidebar_search codo_sidebar_fixed_els">
+                        <div style="color: #fff; background-color: #000;" id="codo_sidebar_fixed_search" class="codo_sidebar_search codo_sidebar_fixed_els">
                             <input type="text" placeholder="{_t('Search')}"
                             class="form-control codo_topics_search_input"/>
                             <i class="fa fa-search codo_topics_search_icon"
@@ -357,7 +357,7 @@
             </div>
 
                     {if !$load_more_hidden}
-                    <div class="codo_topics_loadmore_div row" id="codo_topics_load_more">
+                    <div style="color: #fff; background-color: #000;" class="codo_topics_loadmore_div row" id="codo_topics_load_more">
 
                         <div onclick="CODOF.changePage(this, {$curr_page}, 'prev')"
                             class="pagination_previous_page offset-md-1 col-md-2 col-sm-12{if $curr_page neq 1} active_page_controls{/if}">

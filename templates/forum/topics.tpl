@@ -319,7 +319,7 @@
 
                     CODOFVAR = {
                         no_more_posts: '{_t("No more topics to display!")}',
-                        no_posts: '{_t("No topics found matching your criteria!")}',
+                        no_posts: '{_t("No posts found with your search term.")}',
                         subcategory_dropdown: '{$subcategory_dropdown}',
                         num_posts_per_page: '{$num_posts_per_page}',
                         total: {$total_num_topics|default:0},

@@ -17,7 +17,7 @@
 
         .remember_me_txt {
 
-            color: grey;
+            color: #fff;
         }
 
         #codo_login_error {
