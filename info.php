@@ -7,3 +7,4 @@ $info['author'] = "Team 84 Official";
 $info['author_url'] = 'http://team84official.gq';
 $info['license'] = 'Core License';
 $info['core'] = '1.x';
+$info['parent_theme'] = 'default';
